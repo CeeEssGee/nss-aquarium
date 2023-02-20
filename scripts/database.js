@@ -2,7 +2,7 @@ const database = {
     fish: [
         {
             name: "Bart",
-            species: "Bart's species",
+            species: "Angel Fish",
             food: "crustaceans",
             size: 3,
             location: "where harvested",
