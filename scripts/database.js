@@ -51,7 +51,7 @@ const database = {
     ]
 }
 
-
+// code provided - copies the objects in an array
 export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
 }
