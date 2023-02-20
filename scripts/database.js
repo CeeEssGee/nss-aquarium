@@ -6,7 +6,7 @@ const database = {
             food: "crustaceans",
             size: 5,
             location: "Sydney, Australia",
-            image: "link" //can we add an image to an object?
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSj8qS0fkWH9s4cTjNmNexK1GQpiQbfOWgdwNTB0y1TMgWqbZZ0NEB-xrC3BZNmodW1wU&usqp=CAU"
         },
         {
             name: "Bart",
@@ -14,7 +14,7 @@ const database = {
             food: "insects, crustaceans, other fish",
             size: 12,
             location: "Tinaroo Falls Dam, Australia",
-            image: "link" //can we add an image to an object?
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQqz1ja9w6D4w3UUoVEUzNLQfW6eXySb0C_g&usqp=CAU"
         },
         {
             name: "Carl",
@@ -22,7 +22,7 @@ const database = {
             food: "crustaceans",
             size: 3,
             location: "Bahamas",
-            image: "link" //can we add an image to an object?
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZtahRDaajmoeBegqjW__uLf9ui288t0FmQ&usqp=CAU"
         },
         {
             name: "Davy",
@@ -30,7 +30,7 @@ const database = {
             food: "worms",
             size: 9,
             location: "Mississippi",
-            image: "link" //can we add an image to an object?
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS6uXaIEstKCpebJrIE-sQ8aoLEDBKMtjiTg&usqp=CAU" 
         },
         {
             name: "Ellie",
@@ -38,15 +38,15 @@ const database = {
             food: "fish, plankton",
             size: 18,
             location: "Mexico",
-            image: "link" //can we add an image to an object?
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnwPovQYRgBOx3Dn8NKCFJYVhvETQyci6mQv2Fx54zgV1KpjeKerMj2DYJw7DPxRpv56o&usqp=CAU"
         },
         {
             name: "George",
-            species: "Gooseneck",
+            species: "Grouper",
             food: "plants",
             size: 7,
             location: "Lake Michigan",
-            image: "link" //can we add an image to an object?
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxGESul19g_p-A-fbX34A2AsI4SCUabsAScw&usqp=CAU"
         }
     ]
 }
