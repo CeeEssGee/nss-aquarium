@@ -1,0 +1,40 @@
+.page-title {
+    text-align: center
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+.harvest-location-section {
+    border: 5px blue;
+    margin: 10px
+    display: block;
+}
+
+.fish-list {
+    border: 5px blue;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    display: flex;
+    border: 5px blue;
+    margin-left: auto;
+    width: 25%
+}
+
+article {
+    display: flex;
+    border: 5px blue;
+    margin-right: auto;
+    width: 75%
+}
+
+.fish-card {
+    padding: 5px;
+    margin: 5px;
+    width: 25%;
+}

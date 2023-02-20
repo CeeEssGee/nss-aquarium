@@ -1,3 +1,4 @@
+// import from database (code provided)
 import { getFish } from './database.js'
 
 const allFish = getFish()
@@ -7,7 +8,7 @@ for (const fish of allFish) {
 }
 
 // Import the FishList function from the correct module
-import { htmlString, FishList } from './FishList.js'
+import { FishList } from './FishList.js'
 
 /*
     What is the CSS selector for the element where you
@@ -19,4 +20,4 @@ import { htmlString, FishList } from './FishList.js'
 const parentHTMLElement = document.querySelector(".fish-list")
 
 
-parentHTMLElement.innerHTML = FishList(htmlString)
+parentHTMLElement.innerHTML = FishList()
