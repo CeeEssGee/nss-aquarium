@@ -30,7 +30,7 @@ const database = {
             food: "worms",
             size: 9,
             location: "Mississippi",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS6uXaIEstKCpebJrIE-sQ8aoLEDBKMtjiTg&usqp=CAU" 
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS6uXaIEstKCpebJrIE-sQ8aoLEDBKMtjiTg&usqp=CAU"
         },
         {
             name: "Ellie",
