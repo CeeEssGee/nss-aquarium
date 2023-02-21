@@ -10,11 +10,11 @@ const database = {
         },
         {
             name: "Bart",
-            species: "Barramundi",
+            species: "Bass",
             food: "insects, crustaceans, other fish",
             size: 12,
-            location: "Tinaroo Falls Dam, Australia",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQqz1ja9w6D4w3UUoVEUzNLQfW6eXySb0C_g&usqp=CAU"
+            location: "St. Johns River, Jacksonville, Florida",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBvkuB1Ez2zH1msggjgCe74a3hEcVxYmzDEIo_N7pHrjH_Qx1C29CV0mrhM87K0T786cI&usqp=CAU"
         },
         {
             name: "Carl",

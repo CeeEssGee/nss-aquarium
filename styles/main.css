@@ -1,40 +1,76 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0X8rUpdhoMKrc3ukbeQFxp54O3f-k8sLCHg&usqp=CAU");
+    background-size: auto;
+}
+
 .page-title {
-    text-align: center
+    text-align: center;
+    color: black;
+    background: aqua;
+    text-shadow: 3px 3px 3px lightgray;
+    padding: 0 5 20 5;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2, h4 {
     text-align: center;
+    color: black;
+    text-shadow: 3px 3px 3px lightgray;
+    background: aqua;
 }
 
-.harvest-location-section {
-    border: 5px blue;
-    margin: 10px
-    display: block;
+.fish-collection-article {
+    /* border: black solid 50px; */
 }
 
-.fish-list {
-    border: 5px blue;
-    margin: 10px;
+.fishList {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-}
-
-aside {
-    display: flex;
-    border: 5px blue;
-    margin-left: auto;
-    width: 25%
-}
-
-article {
-    display: flex;
-    border: 5px blue;
-    margin-right: auto;
-    width: 75%
+    justify-content: space-evenly;
+    background: white;
+    text-align: center;
 }
 
 .fish-card {
     padding: 5px;
-    margin: 5px;
-    width: 25%;
+    flex: auto;
+}
+
+.fish__name {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.harvest-location-section {
+    background: black;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+aside {
+    background: black;
+    color: white;
+    text-align: center;
+    width: 250px;
+}
+
+.all-content {
+    display: flex;
+}
+
+.ask-martin-list-item {
+    margin: 10px;
+}
+
+.ask-martin-heading {
+    color: aqua;
+    font-size: bold;
+}
+
+.fish__image {
+    size: 225px 225px
 }
