@@ -22,17 +22,21 @@ h2, h4 {
 }
 
 .fish-collection-article {
-    display: flex;
-    flex-direction: row;
+    /* border: black solid 50px; */
 }
 
-.fish-list {
+.fishList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     background: white;
-    width: 25%;
+    text-align: center;
 }
 
 .fish-card {
     padding: 5px;
+    flex: auto;
 }
 
 .fish__name {
@@ -48,7 +52,25 @@ h2, h4 {
 }
 
 aside {
-    background: blue;
+    background: black;
     color: white;
     text-align: center;
+    width: 250px;
+}
+
+.all-content {
+    display: flex;
+}
+
+.ask-martin-list-item {
+    margin: 10px;
+}
+
+.ask-martin-heading {
+    color: aqua;
+    font-size: bold;
+}
+
+.fish__image {
+    size: 225px 225px
 }
